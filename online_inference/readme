@@ -23,8 +23,8 @@ python make_request.py
 Тесты:
 ```
 pytest tests
-
 ```
+
 Оптимизация размера docker образа:
 использование python 3.6-slim вместо python 3.6 дало уменьшение размера образа в 2 раза с 495 мб до 221 мб.
 [ссылка](https://hub.docker.com/r/danidarya/online_inference/tags?page=1&ordering=last_updated)
