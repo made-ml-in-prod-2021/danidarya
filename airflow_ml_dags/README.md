@@ -1,4 +1,4 @@
-для корректной работы с переменными, созданными из UI
+для корректной работы с переменными, созданными из UI (используется cозданная в GUI переменная model_path=/data/models/{{ds}}/model.pkl)
 ```
 export FERNET_KEY=$(python -c "from cryptography.fernet import Fernet; FERNET_KEY = Fernet.generate_key().decode(); print(FERNET_KEY)")
 docker compose up --build
