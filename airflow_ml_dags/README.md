@@ -5,6 +5,10 @@ docker compose up --build
 ```
 Скриншоты:
 
+Все даги
+
+![TreeView](screenshots/0_all_dags.png)
+
 - dag_data_generation
 
 ![TreeView](screenshots/1_dag_tree.png)
