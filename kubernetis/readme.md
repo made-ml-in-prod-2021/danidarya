@@ -6,5 +6,5 @@ minikube start --driver=docker
 
 Запуск pod:
 ```
-minikube kubectl -- apply -f ./online-inference-pod.yaml
+minikube kubectl --apply -f ./online-inference-pod.yaml
 ```
